@@ -1,0 +1,1 @@
+// Scene 2 sparkles (disabled for minimal setup)

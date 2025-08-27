@@ -1,0 +1,6 @@
+#scene3-container{background:linear-gradient(135deg,#800000,#4B0000);display:grid;place-items:center;}
+.carousel{position:relative;width:100%;height:100vh;overflow:hidden;}
+.carousel-item{position:absolute;width:200px;height:250px;top:50%;left:50%;transform:translate(-50%,-50%);background:#000;
+  display:flex;align-items:center;justify-content:center;color:#fff;font-size:2rem;border-radius:10px;}
+.intention-btn{position:absolute;bottom:20px;left:50%;transform:translateX(-50%);padding:8px 16px;border:1px solid #fff;
+  background:transparent;color:#fff;cursor:pointer;}

@@ -1,0 +1,14 @@
+#scene2-container{background:linear-gradient(180deg,#ffe1f0,#ffc6ff);text-align:center;}
+.birthday-message{margin-top:40px;font-size:2rem;color:#d52d58;opacity:0;}
+#scene2:checked~#scene2-container .birthday-message{animation:fadeIn 1.5s forwards;}
+.cake{margin:100px auto;position:relative;width:200px;height:200px;}
+.layer{position:absolute;width:200px;height:60px;border-radius:20px;}
+.layer-bottom{bottom:0;background:#f7aef8;}
+.layer-middle{bottom:60px;background:#b388eb;}
+.layer-top{bottom:120px;background:#8093f1;}
+.icing{position:absolute;bottom:150px;width:200px;height:20px;background:#fff;border-radius:50% 50% 0 0;}
+.candle{position:absolute;bottom:170px;left:50%;width:10px;height:40px;background:#ff5e5e;transform:translateX(-50%);}
+.flame{position:absolute;top:-15px;left:50%;width:14px;height:14px;border-radius:50%;background:radial-gradient(ellipse at center,#ffdc73,#ff9900);}
+#scene2:checked~#scene2-container .flame{animation:flicker .3s infinite;}
+@keyframes fadeIn{to{opacity:1;}}
+@keyframes flicker{0%,100%{transform:translateX(-50%) scale(1);}50%{transform:translateX(-50%) scale(1.2);}}
